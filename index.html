@@ -1,148 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Developer Portfolio</title>
-        <style></style>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Developer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      margin: 0;
+      background: whitesmoke;
+      color: black;
+    }
 
-    </head>
-    <body>
-        <style>
-            body{
-                font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
-                padding: 0;
-                background: whitesmoke;
-                color: black;
-                
-  
-            }
-            header{
-                padding: 3rem;
-                text-align: center;
-                background-color: grey;
-                color: black;
-                border-radius: 9.5%;
-                justify-content: center;
-                
-            }
-            header h1{
-                margin: 5%;
-                font-size: 4rem;
+    header {
+      padding: 3rem;
+      text-align: center;
+      background-color: grey;
+      color: black;
+      border-radius: 0 0 20px 20px;
+    }
 
-            }
-            header p{
-                font-size: 1.4rem;
-                color: #bbb
-            }
-            section {
-               padding: 3rem 2rem;
-               max-width: 1000px;
-               margin: auto;
-            }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
 
-            h2{
-                text-align: center;
-                margin-bottom: 2rem;
-            }
-            p{
-                text-align: center;
-                font-size: 1.3rem;
-            }
-            #skills {
-             text-align: center;
-             margin: 3rem 0;
-            }
+    header p {
+      font-size: 1.2rem;
+      color: #eee;
+    }
 
-            .skills-container {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 1rem;
-            }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
 
-            .skill {
-                background: #fff;
-                padding: 0.8rem 1.5rem;
-                border-radius: 8px;
-                box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-                font-weight: bold;
-                transition: transform 0.2s ease, background 0.2s ease;
-            }
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
 
-            .skill:hover {
-             background: #4da6ff;
-            color: white;
-            transform: translateY(-5px);
-            }
-            .projects {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;     
-  gap: 20px;              
-}
+    p {
+      text-align: center;
+      font-size: 1.1rem;
+    }
 
-.project-card {
-  max-width: 600px;        
-  width: 90%;              
-  background: white;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
+    /* ===== Skills Section ===== */
+    #skills {
+      text-align: center;
+    }
 
-        </style>
-        <header>
-            <h1>Imrane Ouarrak</h1>
-            <P>Web Developer | Aspiring Software Engineer</P>
-        </header>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! i'M Imrane Ouarrak, An 19 year-old web Developer passionate about coding, 3D-design, and building creative tech project. Currently learning full-stack Web Developement.</p>
-        </section>
-        <!-- ⭐ New Skills Section -->
-        <section id="skills">
-             <h2>Skills</h2>
-                <div class="skills-container">
-                <div class="skill">HTML5</div>
-                <div class="skill">CSS3</div>
-                <div class="skill">Design</div>
-                <div class="skill">Git & GitHub</div>
-                <div class="skill">Basic JavaScript (Learning)</div>
-  </div>
-        <section id="project">
-            <h2>projects</h2>
-            <div class="project">
-            <div class="card">
-                <h3>portfolio website</h3>
-                <p>A clean personal website showcasing my work and skills. Built with HTML, CSS.</p>
-                <a href="#">view project</a>
-            </div>
-            <div class="card">
-                <h3>landing page</h3>
-                <p>A responsive product landing page made during Angela Yu’s Web Dev course.</p>
-                <a href="#">view project</a>
-            </div>
-         </div>
-        </section>
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
 
-        <section id="contact">
-            <h2>contact me</h2>
-           <p>
-    <a href="mailto:imraneoukk@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-    <a href="https://github.com/imrane-ouarrak" target="_blank"><i class="fa-brands fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/imrane-undefined-3a2894293/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-  </p>
-        </section>
-        
-        
-        
-        <footer>
-    <p>© 2025 Imrane Oukk | Built with ❤️ and HTML/CSS</p>
+    .skill {
+      background: #fff;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      font-weight: bold;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .skill:hover {
+      background: #4da6ff;
+      color: white;
+      transform: translateY(-5px);
+    }
+
+    /* ===== Projects Section ===== */
+    .projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .project-card {
+      width: 80%;
+      max-width: 700px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #4da6ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project-card a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== Contact Section ===== */
+    #contact p {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      font-size: 1.8rem;
+    }
+
+    #contact a {
+      color: black;
+      transition: color 0.3s ease;
+    }
+
+    #contact a:hover {
+      color: #4da6ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #ccc;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Imrane Ouarrak</h1>
+    <p>Web Developer | Aspiring Software Engineer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Imrane Ouarrak, a 19-year-old web developer passionate about coding, 3D-design, and building creative tech projects. Currently learning full-stack Web Development.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">Design</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">Basic JavaScript (Learning)</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A clean personal website showcasing my work and skills. Built with HTML & CSS.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>A responsive product landing page made during Angela Yu’s Web Dev course.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>
+      <a href="mailto:imraneoukk@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://github.com/imrane-ouarrak" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/imrane-undefined-3a2894293/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Imrane Oukk | Built with ❤️ using HTML & CSS</p>
   </footer>
-       
+
 </body>
 </html>
+
    
 
